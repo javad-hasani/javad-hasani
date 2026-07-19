@@ -25,93 +25,92 @@ I'm a 31-year-old front-end developer from Shiraz, Iran. I enjoy turning ideas i
   <img src="https://skillicons.dev/icons?i=js,html,css,react,nextjs,redux,tailwind,bootstrap,jquery,vite,photoshop&perline=11" alt="JavaScript, HTML, CSS, React, Next.js, Redux, Tailwind CSS, Bootstrap, jQuery, Vite and Photoshop" />
 </p>
 
-## 🎮 Mini game: Spot the Bug
+## 🎮 Mini game: JavaScript Challenge
 
-Three bugs are hiding below. Try to solve each one before opening the answer.
+Can you get a perfect **3/3**? Choose one answer for each question, then open it to see whether you were right.
 
-<details>
-<summary><strong>Level 1 · Why does this log 3 three times?</strong></summary>
-
-```js
-for (var i = 0; i < 3; i++) {
-  setTimeout(() => console.log(i), 100);
-}
-```
-
-<details>
-<summary>Reveal the answer</summary>
-
-`var` creates one function-scoped binding shared by every callback. When they run, the loop has already finished and `i` is `3`.
-
-Fix it with `let`:
+### 1 · What does this print?
 
 ```js
-for (let i = 0; i < 3; i++) {
-  setTimeout(() => console.log(i), 100);
-}
-```
-
-</details>
-</details>
-
-<details>
-<summary><strong>Level 2 · Why doesn't the React UI update?</strong></summary>
-
-```jsx
-const [user, setUser] = useState({ name: "Javad", score: 0 });
-
-function levelUp() {
-  user.score += 1;
-  setUser(user);
-}
+console.log(typeof null);
 ```
 
 <details>
-<summary>Reveal the answer</summary>
+<summary><strong>A · "null"</strong></summary>
 
-The existing state object is mutated and then passed back with the same reference. React may skip the render.
+❌ Not quite. Despite the value being `null`, JavaScript reports its type as `"object"` because of a long-standing language quirk.
 
-```jsx
-function levelUp() {
-  setUser(current => ({ ...current, score: current.score + 1 }));
-}
-```
-
-</details>
 </details>
 
 <details>
-<summary><strong>Level 3 · Find the Next.js hydration trap</strong></summary>
+<summary><strong>B · "object"</strong></summary>
 
-```jsx
-export default function Clock() {
-  return <p>{new Date().toLocaleTimeString()}</p>;
-}
+✅ Correct! `typeof null` returns `"object"`. You have **1 point**.
+
+</details>
+
+<details>
+<summary><strong>C · "undefined"</strong></summary>
+
+❌ Not this time. `undefined` has its own type, but `null` is reported as `"object"`.
+
+</details>
+
+### 2 · What is the final value?
+
+```js
+const score = [1, 2, 3].map(n => n * 2);
 ```
 
 <details>
-<summary>Reveal the answer</summary>
+<summary><strong>A · [1, 2, 3, 2]</strong></summary>
 
-The server and browser can render different times, so their first HTML output may not match. Render the live value after the component mounts.
+❌ `map` does not append a value. It creates a new array by transforming every item.
+
+</details>
+
+<details>
+<summary><strong>B · [2, 4, 6]</strong></summary>
+
+✅ Correct! Every item is doubled. Add **1 point**.
+
+</details>
+
+<details>
+<summary><strong>C · 6</strong></summary>
+
+❌ That would require a calculation such as `reduce`. `map` always returns an array.
+
+</details>
+
+### 3 · Which update is safe in React?
 
 ```jsx
-"use client";
-
-import { useEffect, useState } from "react";
-
-export default function Clock() {
-  const [time, setTime] = useState("");
-
-  useEffect(() => {
-    setTime(new Date().toLocaleTimeString());
-  }, []);
-
-  return <p>{time || "Loading time..."}</p>;
-}
+const [user, setUser] = useState({ name: "Javad", level: 1 });
 ```
 
+<details>
+<summary><strong>A · user.level++; setUser(user)</strong></summary>
+
+❌ This mutates the existing state object. React may not detect a new reference.
+
 </details>
+
+<details>
+<summary><strong>B · setUser({ level: user.level + 1 })</strong></summary>
+
+❌ The level changes, but the `name` property is accidentally removed.
+
 </details>
+
+<details>
+<summary><strong>C · setUser(current => ({ ...current, level: current.level + 1 }))</strong></summary>
+
+✅ Correct! It uses the latest state and creates a new object while preserving other properties. Add **1 point**.
+
+</details>
+
+> **Your result:** 3/3 = Front-End Wizard 🧙 · 2/3 = React Ranger ⚛️ · 0–1/3 = Keep shipping 🚀
 
 <div align="center">
 
