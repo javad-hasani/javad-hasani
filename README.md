@@ -8,7 +8,7 @@ I build web interfaces and connect the tools behind them—so your team can spen
 
 **Available for freelance projects and remote collaboration**
 
-[Discuss your project](mailto:javadhasani93@yahoo.com) · [LinkedIn](https://www.linkedin.com/in/javad-hasani) · [Explore my repositories](https://github.com/javad-hasani?tab=repositories)
+[Discuss your project](mailto:vadoohasani@gmail.com) · [LinkedIn](https://www.linkedin.com/in/javad-hasani) · [Explore my repositories](https://github.com/javad-hasani?tab=repositories)
 
 </div>
 
@@ -91,7 +91,7 @@ Document the setup, decisions and limitations so the work can keep evolving.
 
 **یک فرایند تکراری در کسب‌وکارت داری؟** توضیح بده الان چطور انجامش می‌دهی، از چه ابزارهایی استفاده می‌کنی و چه خروجی می‌خواهی.
 
-[گفت‌وگو درباره پروژه](mailto:javadhasani93@yahoo.com) · [ارتباط در لینکدین](https://www.linkedin.com/in/javad-hasani)
+[گفت‌وگو درباره پروژه](mailto:vadoohasani@gmail.com) · [ارتباط در لینکدین](https://www.linkedin.com/in/javad-hasani)
 
 </div>
 
@@ -103,7 +103,7 @@ Document the setup, decisions and limitations so the work can keep evolving.
 
 Send me **your goal, the tools you use and your timeline**.
 
-**[Let's talk →](mailto:javadhasani93@yahoo.com)**
+**[Let's talk →](mailto:vadoohasani@gmail.com)**
 
 Shiraz, Iran · Open to remote projects
 
