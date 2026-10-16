@@ -1,129 +1,110 @@
 <div align="center">
 
-# Hi, I'm Javad Hasani 👋
+<img src="./assets/profile-banner.svg" width="100%" alt="Javad Hasani — Interfaces that connect. Workflows that deliver." />
 
-### Front-End Developer · Next.js Enthusiast · UI Builder
+### Front-End Developer · n8n & AI Automation
 
-[![GitHub followers](https://img.shields.io/github/followers/javad-hasani?style=for-the-badge&logo=github&label=Followers&color=0891b2)](https://github.com/javad-hasani?tab=followers)
-![Profile views](https://komarev.com/ghpvc/?username=javad-hasani&style=for-the-badge&color=0891b2)
+I build web interfaces and connect the tools behind them—so your team can spend less time on repetitive work.
+
+**Available for freelance projects and remote collaboration**
+
+[Discuss your project](mailto:javadhasani93@yahoo.com) · [LinkedIn](https://www.linkedin.com/in/javad-hasani) · [Explore my repositories](https://github.com/javad-hasani?tab=repositories)
 
 </div>
 
-## About me
+---
 
-I'm a 31-year-old front-end developer from Shiraz, Iran. I enjoy turning ideas into clean, responsive interfaces and experimenting with colors, interactions, and modern web technologies.
+## What can I build for you?
 
-- 🔭 Building modern web experiences with React and Next.js
-- 🌱 Continuously improving my Next.js and front-end architecture skills
-- 🤝 Open to collaborating on interesting web projects
-- 💬 Feedback and constructive criticism are always welcome
-- 📫 Reach me at [javadhasani93@yahoo.com](mailto:javadhasani93@yahoo.com)
+| Your challenge | What I can build |
+| :--- | :--- |
+| “We keep moving information between tools manually.” | **n8n workflows** connecting APIs, webhooks, CRMs and databases. |
+| “Our website or internal tool needs a better interface.” | **Responsive React & Next.js interfaces** for websites, dashboards and business tools. |
+| “We have conversations and data, but no useful summary.” | **AI-assisted workflows** for transcription, structured analysis and reporting. |
+| “Our team needs updates without checking every system.” | **Bot notifications and scheduled reports** connected to your existing processes. |
 
-## Tech stack
+## Featured work / Call intelligence & workflow automation
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=js,html,css,react,nextjs,redux,tailwind,bootstrap,jquery,vite,photoshop&perline=11" alt="JavaScript, HTML, CSS, React, Next.js, Redux, Tailwind CSS, Bootstrap, jQuery, Vite and Photoshop" />
-</p>
+**An ongoing business project for sales and support teams.**
 
-## 🎮 Mini game: JavaScript Challenge
+Working on a system that connects telephony, AI processing, a PostgreSQL database, CRM context and a messaging bot. It turns call information into searchable transcripts, per-call insights and reports for the people who need them.
 
-Can you get a perfect **3/3**? Choose one answer for each question, then open it to see whether you were right.
+| Area | My work |
+| :--- | :--- |
+| **Workflow orchestration** | n8n workflows for call ingestion, processing queues and reporting. |
+| **AI integration** | Transcription and structured analysis, with validation of model output. |
+| **CRM & APIs** | Read-only customer context integration, phone normalization and error handling. |
+| **Reporting & bots** | Role-based access to saved analyses, operator reports and feedback. |
+| **Reliability** | Duplicate-processing guards, stored-result reuse, failure tracking and isolated tests. |
+| **Knowledge workflows** | Reviewed knowledge content and workflows for identifying learning gaps. |
 
-### 1 · What does this print?
+**Built with:** n8n · JavaScript · PostgreSQL · REST APIs · Webhooks · AI APIs · Docker · GitHub
 
-```js
-console.log(typeof null);
-```
+*The implementation is private. This is a high-level overview; ongoing features are not presented as completed releases.*
+
+## Tools I work with
+
+**Automation & integrations**
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-0F766E?style=flat-square)
+![Webhooks](https://img.shields.io/badge/Webhooks-155E75?style=flat-square)
+![AI workflows](https://img.shields.io/badge/AI_Workflows-4338CA?style=flat-square)
+![CRM integration](https://img.shields.io/badge/CRM_Integration-334155?style=flat-square)
+
+**Front-end**
+
+<img src="https://skillicons.dev/icons?i=js,html,css,react,nextjs,redux,tailwind,vite&perline=8" alt="JavaScript, HTML, CSS, React, Next.js, Redux, Tailwind CSS and Vite" />
+
+**Data & delivery**
+
+<img src="https://skillicons.dev/icons?i=postgres,docker,git,github&perline=4" alt="PostgreSQL, Docker, Git and GitHub" />
 
 <details>
-<summary><strong>A · "null"</strong></summary>
+<summary>Also in my toolkit</summary>
 
-❌ Not quite. Despite the value being `null`, JavaScript reports its type as `"object"` because of a long-standing language quirk.
+Bootstrap · jQuery · Photoshop · SQL · GitHub Actions
 
 </details>
 
-<details>
-<summary><strong>B · "object"</strong></summary>
+## How I approach a project
 
-✅ Correct! `typeof null` returns `"object"`. You have **1 point**.
+**01 — Understand the work**  
+Map the current process, the tools involved and what a useful result looks like.
 
-</details>
+**02 — Build a focused solution**  
+Start with a clear scope and a working flow you can review.
 
-<details>
-<summary><strong>C · "undefined"</strong></summary>
+**03 — Test the real edge cases**  
+Check permissions, missing data, failures and duplicate events.
 
-❌ Not this time. `undefined` has its own type, but `null` is reported as `"object"`.
+**04 — Make it maintainable**  
+Document the setup, decisions and limitations so the work can keep evolving.
 
-</details>
+---
 
-### 2 · What is the final value?
+<div dir="rtl">
 
-```js
-const score = [1, 2, 3].map(n => n * 2);
-```
+### برای کسب‌وکارت چه کاری می‌توانم انجام بدهم؟
 
-<details>
-<summary><strong>A · [1, 2, 3, 2]</strong></summary>
+من جواد حسنی هستم؛ توسعه‌دهنده فرانت‌اند و اتوماسیون از شیراز. برای طراحی رابط کاربری با React و Next.js، ساخت اتوماسیون با n8n، اتصال CRM و APIها، و پیاده‌سازی گزارش‌ها و فرایندهای مبتنی بر هوش مصنوعی آماده همکاری پروژه‌ای هستم.
 
-❌ `map` does not append a value. It creates a new array by transforming every item.
+**یک فرایند تکراری در کسب‌وکارت داری؟** توضیح بده الان چطور انجامش می‌دهی، از چه ابزارهایی استفاده می‌کنی و چه خروجی می‌خواهی.
 
-</details>
+[گفت‌وگو درباره پروژه](mailto:javadhasani93@yahoo.com) · [ارتباط در لینکدین](https://www.linkedin.com/in/javad-hasani)
 
-<details>
-<summary><strong>B · [2, 4, 6]</strong></summary>
+</div>
 
-✅ Correct! Every item is doubled. Add **1 point**.
-
-</details>
-
-<details>
-<summary><strong>C · 6</strong></summary>
-
-❌ That would require a calculation such as `reduce`. `map` always returns an array.
-
-</details>
-
-### 3 · Which update is safe in React?
-
-```jsx
-const [user, setUser] = useState({ name: "Javad", level: 1 });
-```
-
-<details>
-<summary><strong>A · user.level++; setUser(user)</strong></summary>
-
-❌ This mutates the existing state object. React may not detect a new reference.
-
-</details>
-
-<details>
-<summary><strong>B · setUser({ level: user.level + 1 })</strong></summary>
-
-❌ The level changes, but the `name` property is accidentally removed.
-
-</details>
-
-<details>
-<summary><strong>C · setUser(current => ({ ...current, level: current.level + 1 }))</strong></summary>
-
-✅ Correct! It uses the latest state and creates a new object while preserving other properties. Add **1 point**.
-
-</details>
-
-> **Your result:** 3/3 = Front-End Wizard 🧙 · 2/3 = React Ranger ⚛️ · 0–1/3 = Keep shipping 🚀
+---
 
 <div align="center">
 
-### My GitHub activity
+### Have a workflow to simplify or an interface to build?
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=javad-hasani&show_icons=true&theme=tokyonight&hide_border=true" alt="Javad's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=javad-hasani&layout=compact&theme=tokyonight&hide_border=true" alt="Javad's most used languages" />
+Send me **your goal, the tools you use and your timeline**.
 
-### Let's connect
+**[Let's talk →](mailto:javadhasani93@yahoo.com)**
 
-[![GitHub](https://img.shields.io/badge/GitHub-javad--hasani-181717?style=for-the-badge&logo=github)](https://github.com/javad-hasani)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Javad_Hasani-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/javad-hasani)
-[![Instagram](https://img.shields.io/badge/Instagram-@_javadhasani-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/_javadhasani)
-[![Threads](https://img.shields.io/badge/Threads-@_javadhasani-000000?style=for-the-badge&logo=threads)](https://www.threads.net/@_javadhasani)
+Shiraz, Iran · Open to remote projects
 
 </div>
